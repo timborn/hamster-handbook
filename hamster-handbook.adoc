@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.1, July 20, 2021
+v0.2, July 20, 2021
 :toclevels 5:
 :toc:
 :icons: font
@@ -8,20 +8,6 @@ v0.1, July 20, 2021
 == Overview
 
 Notes made by a ham newbie as he muddled his way through the learning curve.
-
-= Useful AsciiDoc Stuff
-
-NOTE: Remember the milk!
-
-WARNING: do not drink sour milk
-
-TIP: tip
-
-CAUTION: caution
-
-IMPORTANT: pay attention
-
-TODO: what does a comment look like?
 
 = Voice
 
