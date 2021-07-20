@@ -1,0 +1,103 @@
+= The Hamster Handbook
+Tim Born <Timothy.D.Born@gmail.com>
+v0.1, July 20, 2021
+:toclevels 5:
+:toc:
+:icons: font
+
+== Overview
+
+Notes made by a ham newbie as he muddled his way through the learning curve.
+
+= Useful AsciiDoc Stuff
+
+NOTE: Remember the milk!
+
+WARNING: do not drink sour milk
+
+TIP: tip
+
+CAUTION: caution
+
+IMPORTANT: pay attention
+
+TODO: what does a comment look like?
+
+= Voice
+
+= Digital Modes
+
+many!
+
+= Reference Materials
+
+== Phonetic Alphabet
+
+|===
+|A |Alfa/Alpha |AL FAH
+|B |Bravo |BRAH VOH
+|C |Charlie |CHAR LEE
+|D |Delta |DELL TAH
+|E |Echo |ECK OH
+|F |Foxtrot |FOKS TROT
+|G |Golf |GOLF
+|H |Hotel |HOH TELL
+|I |India |IN DEE AH
+|J |Juliett |JEW LEE ETT
+|K |Kilo |KEY LOH
+|L |Lima |LEE MAH
+|M |Mike |MIKE
+|N |November |NO VEMBER
+|O |Oscar |OSS CAH
+|P |Papa |PAH PAH
+|Q |Quebec |KEH BECK
+|R |Romeo |ROW ME OH
+|S |Sierra |SEE AIRRAH
+|T |Tango |TANG OH
+|U |Uniform |YOU NEE FORM
+|V |Victor |VIK TAH
+|W |Whiskey |WISS KEY
+|X |X-ray |ECKS RAY
+|Y |Yankee |YANG KEY
+|Z |Zulu |ZOO LOO
+|===
+
+== Q-Codes
+
+Q-signals are a system of radio shorthand as old as wireless and developed from even older telegraphy codes. Q-signals are a set of abbreviations for common information that save time and allow communication between operators who don’t speak a common language. Modern ham radio uses them extensively. The table below lists the most common Q-signals used by hams. While Q-signals were developed for use by Morse operators, their use is common on phone, as well. You will often hear, “QRZed?” as someone asks “Who is calling me?” or “I’m getting a little QRM” from an operator receiving some interference or “Let’s QSY to 146.55” as two operators change from a repeater frequency to a nearby simplex communications frequency.
+
+|===
+|QRG |Your exact frequency (or that of ______) is _________kHz. Will you tell me my exact frequency (or that of __________)?
+|QRL |I am busy (or I am busy with _________). Are you busy? Usually used to see if a frequency is busy.
+|QRM |Your transmission is being interfered with _________ (1. Nil; 2. Slightly; 3. Moderately; 4. Severely; 5. Extremely.) Is my transmission being interfered with?
+|QRN |I am troubled by static _________. (1 to 5 as under QRM.) Are you troubled by static?
+|QRO |Increase power. Shall I increase power?
+|QRP |Decrease power. Shall I decrease power?
+|QRQ |Send faster (_________wpm). Shall I send faster?
+|QRS |Send more slowly (_________wpm). Shall I send more slowly?
+|QRT |Stop sending. Shall I stop sending?
+|QRU |I have nothing for you. Have you anything for me?
+|QRV |I am ready. Are you ready?
+|QRX |I will call you again at ______hours (on ______kHz).  When will you call me again? Minutes are usually implied rather than hours.
+|QRZ |You are being called by _________ (on ______kHz). Who is calling me?
+|QSB |Your signals are fading. Are my signals fading?
+|QSK |I can hear you between signals; break in on my transmission.  Can you hear me between your signals and if so can I break in on your transmission?
+|QSL |I am acknowledging receipt.  Can you acknowledge receipt (of a message or transmission)?
+|QSO |I can communicate with _________ direct (or relay through ______). Can you communicate with ______ direct or by relay?
+|QSP |I will relay to ______. Will you relay to ______?
+|QST |General call preceding a message addressed to all amateurs and ARRL members. This is in effect “CQ ARRL.”
+|QSX |I am listening to ______ on ______kHz. Will you listen to ______on ______kHz?
+|QSY |Change to transmission on another frequency (or on ______kHz).  Shall I change to transmission on another frequency (or on ______kHz)?
+|QTC |I have ______messages for you (or for ______).  How many messages have you to send?
+|QTH |My location is _________. What is your location?
+|QTR |The time is _________. What is the correct time?
+
+|===
+
+REF: ARRL
+
+= References
+
+. ARRL - American Radio Relay League.  arrl.org
+
+
