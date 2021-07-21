@@ -1,19 +1,67 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.2, July 20, 2021
+v0.3, July 21, 2021
 :toclevels 5:
-:toc:
 :icons: font
+:toc:
+image::images/hamster-with-headphones.png[]
+
 
 == Overview
 
 Notes made by a ham newbie as he muddled his way through the learning curve.
 
+= Scenarios
+
+. just chatting ("rag chew")
+. automatic position reporting (see APRS)
+. operating remotely - QRM, solar powered
+. operating remotely - canyons and other obstacles
+. disaster assistance - reconnecting to a net, operating in a net, operating the net
+
+= Morse Code
+
+For completeness, Morse code (CW) is included.
+It requires you to learn Morse, however.
+From many perspectives, CW is optimal - low bandwidth, low power, it can get through whenm voice cannot, and the kit to start operating is probably the least expensive -- assuming you can get past the 'learn Morse' part.
+
+Morse code used to be called Continuous Wave (CW).
+
 = Voice
+
+AM, FM, side band
 
 = Digital Modes
 
-many!
+It appears that digital is where a lot of the experimentation is happening.
+While CW & voice are well understood and pretty stable, digital provides a ton of opportunities to play with protocols, error checking & correction, TDMA, data+voice and a ton of other things.
+
+I'm attracted to digital modes because it appears it may be possible to get a message through with a low power transmitter when voice wouldn't cut it.
+
+== ALE - Automatic Link Establishment
+
+Problem: after a disaster how to hams reconnect with each other?
+
+Solution: ALE is a set of fixed frequencies and a protocol for scanning those frequencies to find and reconnect hams to each other.
+
+== APRS -
+
+digipeater, iGate, microsat, aprsdroid
+
+https://aprs.fi
+
+== JS8CALL
+
+???
+
+= Antennas
+
+If you want to analyze an antenna design, AFAIK the only free software left for this is https://www.qsl.net/4nec2/
+It has a very steep learning curve, but it could be useful.
+(extra credit: is the fractal antenna in White Collar really an antenna?  What properties do you get from the fractal shape?)
+
+MMANA-GAL appears to be free antenna analysis software.
+MSWin only, sadly.
 
 = Reference Materials
 
@@ -85,5 +133,8 @@ REF: ARRL
 = References
 
 . ARRL - American Radio Relay League.  arrl.org
+. 4NEC2 - "NEC based antenna modeler and optimizer
+by Arie Voors", https://www.qsl.net/4nec2/
+. MMANA-GAL - antenna analysis software, https://hamsoft.ca/pages/mmana-gal.php
 
 

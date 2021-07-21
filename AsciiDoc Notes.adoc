@@ -8,6 +8,7 @@ v0.1, July 20, 2021
 = References
 
 . https://docs.asciidoctor.org/asciidoc/latest/
+. https://asciidoc.org/userguide.html
 
 = Useful AsciiDoc Stuff
 

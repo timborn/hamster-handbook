@@ -443,26 +443,44 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="details">
 <span id="author" class="author">Tim Born</span><br>
 <span id="email" class="email"><a href="mailto:Timothy.D.Born@gmail.com">Timothy.D.Born@gmail.com</a></span><br>
-<span id="revnumber">version 0.1,</span>
-<span id="revdate">July 20, 2021</span>
+<span id="revnumber">version 0.3,</span>
+<span id="revdate">July 21, 2021</span>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#_overview">Overview</a></li>
+<li><a href="#_scenarios">Scenarios</a></li>
+<li><a href="#_morse_code">Morse Code</a></li>
 <li><a href="#_voice">Voice</a></li>
-<li><a href="#_digital_modes">Digital Modes</a></li>
+<li><a href="#_digital_modes">Digital Modes</a>
+<ul class="sectlevel1">
+<li><a href="#_ale_automatic_link_establishment">ALE - Automatic Link Establishment</a></li>
+<li><a href="#_aprs">APRS -</a></li>
+<li><a href="#_js8call">JS8CALL</a></li>
+</ul>
+</li>
+<li><a href="#_antennas">Antennas</a></li>
 <li><a href="#_reference_materials">Reference Materials</a>
 <ul class="sectlevel1">
 <li><a href="#_phonetic_alphabet">Phonetic Alphabet</a></li>
 <li><a href="#_q_codes">Q-Codes</a></li>
-<li><a href="#_references">References</a></li>
 </ul>
 </li>
+<li><a href="#_references">References</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="images/hamster-with-headphones.png" alt="hamster with headphones">
+</div>
+</div>
+</div>
+</div>
 <div class="sect1">
 <h2 id="_overview">Overview</h2>
 <div class="sectionbody">
@@ -471,34 +489,86 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
-<h1 id="_voice" class="sect0">Voice</h1>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-Remember the milk!
-</td>
-</tr>
-</table>
+<h1 id="_scenarios" class="sect0">Scenarios</h1>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>just chatting ("rag chew")</p>
+</li>
+<li>
+<p>automatic position reporting (see APRS)</p>
+</li>
+<li>
+<p>operating remotely - QRM, solar powered</p>
+</li>
+<li>
+<p>operating remotely - canyons and other obstacles</p>
+</li>
+<li>
+<p>disaster assistance - reconnecting to a net, operating in a net, operating the net</p>
+</li>
+</ol>
 </div>
-<div class="admonitionblock warning">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-warning" title="Warning"></i>
-</td>
-<td class="content">
-do not drink sour milk
-</td>
-</tr>
-</table>
+<h1 id="_morse_code" class="sect0">Morse Code</h1>
+<div class="paragraph">
+<p>For completeness, Morse code (CW) is included.
+It requires you to learn Morse, however.
+From many perspectives, CW is optimal - low bandwidth, low power, it can get through whenm voice cannot, and the kit to start operating is probably the least expensive&#8201;&#8212;&#8201;assuming you can get past the 'learn Morse' part.</p>
+</div>
+<div class="paragraph">
+<p>Morse code used to be called Continuous Wave (CW).</p>
+</div>
+<h1 id="_voice" class="sect0">Voice</h1>
+<div class="paragraph">
+<p>AM, FM, side band</p>
 </div>
 <h1 id="_digital_modes" class="sect0">Digital Modes</h1>
 <div class="paragraph">
-<p>many!</p>
+<p>It appears that digital is where a lot of the experimentation is happening.
+While CW &amp; voice are well understood and pretty stable, digital provides a ton of opportunities to play with protocols, error checking &amp; correction, TDMA, data+voice and a ton of other things.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;m attracted to digital modes because it appears it may be possible to get a message through with a low power transmitter when voice wouldn&#8217;t cut it.</p>
+</div>
+<div class="sect1">
+<h2 id="_ale_automatic_link_establishment">ALE - Automatic Link Establishment</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Problem: after a disaster how to hams reconnect with each other?</p>
+</div>
+<div class="paragraph">
+<p>Solution: ALE is a set of fixed frequencies and a protocol for scanning those frequencies to find and reconnect hams to each other.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_aprs">APRS -</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>digipeater, iGate, microsat, aprsdroid</p>
+</div>
+<div class="paragraph">
+<p><a href="https://aprs.fi" class="bare">https://aprs.fi</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_js8call">JS8CALL</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>???</p>
+</div>
+</div>
+</div>
+<h1 id="_antennas" class="sect0">Antennas</h1>
+<div class="paragraph">
+<p>If you want to analyze an antenna design, AFAIK the only free software left for this is <a href="https://www.qsl.net/4nec2/" class="bare">https://www.qsl.net/4nec2/</a>
+It has a very steep learning curve, but it could be useful.
+(extra credit: is the fractal antenna in White Collar really an antenna?  What properties do you get from the fractal shape?)</p>
+</div>
+<div class="paragraph">
+<p>MMANA-GAL appears to be free antenna analysis software.
+MSWin only, sadly.</p>
 </div>
 <h1 id="_reference_materials" class="sect0">Reference Materials</h1>
 <div class="sect1">
@@ -760,23 +830,26 @@ do not drink sour milk
 </div>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_references">References</h2>
-<div class="sectionbody">
+<h1 id="_references" class="sect0">References</h1>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
 <p>ARRL - American Radio Relay League.  arrl.org</p>
 </li>
+<li>
+<p>4NEC2 - "NEC based antenna modeler and optimizer
+by Arie Voors", <a href="https://www.qsl.net/4nec2/" class="bare">https://www.qsl.net/4nec2/</a></p>
+</li>
+<li>
+<p>MMANA-GAL - antenna analysis software, <a href="https://hamsoft.ca/pages/mmana-gal.php" class="bare">https://hamsoft.ca/pages/mmana-gal.php</a></p>
+</li>
 </ol>
-</div>
-</div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.1<br>
-Last updated 2021-07-20 11:18:05 -0700
+Version 0.3<br>
+Last updated 2021-07-21 06:51:21 -0700
 </div>
 </div>
 </body>
