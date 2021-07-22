@@ -437,16 +437,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
 <h1>The Hamster Handbook</h1>
 <div class="details">
 <span id="author" class="author">Tim Born</span><br>
 <span id="email" class="email"><a href="mailto:Timothy.D.Born@gmail.com">Timothy.D.Born@gmail.com</a></span><br>
-<span id="revnumber">version 0.3,</span>
-<span id="revdate">July 21, 2021</span>
+<span id="revnumber">version 0.4,</span>
+<span id="revdate">July 22, 2021</span>
 </div>
-<div id="toc" class="toc">
+<div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#_overview">Overview</a></li>
@@ -458,13 +458,21 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_ale_automatic_link_establishment">ALE - Automatic Link Establishment</a></li>
 <li><a href="#_aprs">APRS -</a></li>
 <li><a href="#_js8call">JS8CALL</a></li>
+<li><a href="#_rtty">RTTY</a></li>
 </ul>
 </li>
 <li><a href="#_antennas">Antennas</a></li>
+<li><a href="#_coolest_website_ever">Coolest Website Ever</a></li>
+<li><a href="#_projects">Projects</a>
+<ul class="sectlevel1">
+<li><a href="#_project_1_aprs_on_the_cheap">Project #1 - APRS on the Cheap</a></li>
+</ul>
+</li>
 <li><a href="#_reference_materials">Reference Materials</a>
 <ul class="sectlevel1">
 <li><a href="#_phonetic_alphabet">Phonetic Alphabet</a></li>
 <li><a href="#_q_codes">Q-Codes</a></li>
+<li><a href="#_band_chart">Band Chart</a></li>
 </ul>
 </li>
 <li><a href="#_references">References</a></li>
@@ -476,7 +484,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<img src="images/hamster-with-headphones.png" alt="hamster with headphones">
+<img src="./images/hamster-with-headphones.png" alt="hamster with headphones">
 </div>
 </div>
 </div>
@@ -560,6 +568,27 @@ While CW &amp; voice are well understood and pretty stable, digital provides a t
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_rtty">RTTY</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>R</strong>adio <strong>T</strong>ele<strong>TY</strong>pe - pretty vintage stuff, but still being used, apparently.</p>
+</div>
+<div class="paragraph">
+<p>Tutorial for beginners and MMTTY software (MSWin only, alas) available at <a href="https://hamsoft.ca/pages/mmtty.php" class="bare">https://hamsoft.ca/pages/mmtty.php</a></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>AFSK - ?</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>"LSB is the convention for AFSK"</p>
+</div>
+</div>
+</div>
 <h1 id="_antennas" class="sect0">Antennas</h1>
 <div class="paragraph">
 <p>If you want to analyze an antenna design, AFAIK the only free software left for this is <a href="https://www.qsl.net/4nec2/" class="bare">https://www.qsl.net/4nec2/</a>
@@ -569,6 +598,43 @@ It has a very steep learning curve, but it could be useful.
 <div class="paragraph">
 <p>MMANA-GAL appears to be free antenna analysis software.
 MSWin only, sadly.</p>
+</div>
+<h1 id="_coolest_website_ever" class="sect0">Coolest Website Ever</h1>
+<div class="paragraph">
+<p>Imagine being able to operate a ham radio (receive only) from your browser.
+Practice dialing in signals and understanding the bands.
+Thanks to Software Defined Radio [SDR] and some generous people, you can!</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./images/NA5B-SDR.png" alt="NA5B SDR">
+</div>
+</div>
+<div class="paragraph">
+<p>There is a list of other operating locations here:
+<a href="http://websdr.org/" class="bare">http://websdr.org/</a></p>
+</div>
+<div class="paragraph">
+<p>SDR is pretty magical, in that dozens of people can operate simultaneously.</p>
+</div>
+<h1 id="_projects" class="sect0">Projects</h1>
+<div class="sect1">
+<h2 id="_project_1_aprs_on_the_cheap">Project #1 - APRS on the Cheap</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Minimal materials to get experience with APRS.
+Proposed solution: APRSdriod running on cell phone, connected to a dual band Handy Talkie (HT).</p>
+</div>
+<div class="paragraph">
+<p>SITE for APRSdroid and where you can download it free</p>
+</div>
+<div class="paragraph">
+<p>Phyical wiring and cable construction</p>
+</div>
+<div class="paragraph">
+<p>operating APRSdroid - what can you do with it?</p>
+</div>
+</div>
 </div>
 <h1 id="_reference_materials" class="sect0">Reference Materials</h1>
 <div class="sect1">
@@ -830,6 +896,16 @@ MSWin only, sadly.</p>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_band_chart">Band Chart</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="./images/Band%20Chart.pdf" alt="Band Chart">
+</div>
+</div>
+</div>
+</div>
 <h1 id="_references" class="sect0">References</h1>
 <div class="olist arabic">
 <ol class="arabic">
@@ -848,8 +924,8 @@ by Arie Voors", <a href="https://www.qsl.net/4nec2/" class="bare">https://www.qs
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.3<br>
-Last updated 2021-07-21 06:51:21 -0700
+Version 0.4<br>
+Last updated 2021-07-22 15:42:03 -0700
 </div>
 </div>
 </body>
