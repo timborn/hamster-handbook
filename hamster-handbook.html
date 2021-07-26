@@ -444,7 +444,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <span id="author" class="author">Tim Born</span><br>
 <span id="email" class="email"><a href="mailto:Timothy.D.Born@gmail.com">Timothy.D.Born@gmail.com</a></span><br>
 <span id="revnumber">version 0.4,</span>
-<span id="revdate">July 22, 2021</span>
+<span id="revdate">July 26, 2021</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -455,17 +455,25 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_voice">Voice</a></li>
 <li><a href="#_digital_modes">Digital Modes</a>
 <ul class="sectlevel1">
+<li><a href="#_digital_voice">Digital Voice</a></li>
 <li><a href="#_ale_automatic_link_establishment">ALE - Automatic Link Establishment</a></li>
 <li><a href="#_aprs">APRS -</a></li>
 <li><a href="#_js8call">JS8CALL</a></li>
 <li><a href="#_rtty">RTTY</a></li>
+<li><a href="#_winlink">WinLink</a></li>
 </ul>
 </li>
-<li><a href="#_antennas">Antennas</a></li>
+<li><a href="#_antennas">Antennas</a>
+<ul class="sectlevel1">
+<li><a href="#_antenna_design">Antenna Design</a></li>
+<li><a href="#_mobile_antennas">Mobile Antennas</a></li>
+</ul>
+</li>
 <li><a href="#_coolest_website_ever">Coolest Website Ever</a></li>
 <li><a href="#_projects">Projects</a>
 <ul class="sectlevel1">
 <li><a href="#_project_1_aprs_on_the_cheap">Project #1 - APRS on the Cheap</a></li>
+<li><a href="#_project_2_winlink_on_kenwood_tm_d710ga">Project #2 - WinLink on Kenwood TM-D710GA</a></li>
 </ul>
 </li>
 <li><a href="#_reference_materials">Reference Materials</a>
@@ -539,6 +547,45 @@ While CW &amp; voice are well understood and pretty stable, digital provides a t
 <p>I&#8217;m attracted to digital modes because it appears it may be possible to get a message through with a low power transmitter when voice wouldn&#8217;t cut it.</p>
 </div>
 <div class="sect1">
+<h2 id="_digital_voice">Digital Voice</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Who would have thought there would be competition in digital voice?
+I see DMR on the European models, and that appears to be TDMA (duplexing two channels in one 12.5 kHz band).
+As a standard, all vendors can mfgr this, and several do.</p>
+</div>
+<div class="paragraph">
+<p>I see C4FM WIRES-X on Yaesu radios.
+C4FM appears to refer to the digital voice, and WIRES-X appears to refer to linking across the internet.</p>
+</div>
+<div class="paragraph">
+<p>AKA System Fusion?  Circa 2014?
+Great audio quality.
+Can mux voice &amp; data.</p>
+</div>
+<div class="paragraph">
+<p>other reflectors (repeaters?) that work with C4FM:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>FCS</p>
+</li>
+<li>
+<p>YSF?</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>ICOM likes D-STAR.  Japan Amateur Radio League, circa 2001.
+Oldest digital format.</p>
+</div>
+<div class="paragraph">
+<p>Internet is the weak link, and many of these look to be proprietary.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_ale_automatic_link_establishment">ALE - Automatic Link Establishment</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -589,7 +636,56 @@ While CW &amp; voice are well understood and pretty stable, digital provides a t
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_winlink">WinLink</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>WinLink - global radio email - <a href="https://www.winlink.org/" class="bare">https://www.winlink.org/</a></p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>... there is even a setting in Winlink Packet for the D710.</p>
+</div>
+<div class="paragraph">
+<p>All you need is USB-K5G cable either from
+RT Systems <a href="https://www.rtsystemsinc.com/TM-D710-programming-software-and-USB-cable-s/1882.htm" class="bare">https://www.rtsystemsinc.com/TM-D710-programming-software-and-USB-cable-s/1882.htm</a>
+or Amazon <a href="https://smile.amazon.com/Valley-Enterprises-Programming-TM-D710A-TM-D710E/dp/B072QDHT11" class="bare">https://smile.amazon.com/Valley-Enterprises-Programming-TM-D710A-TM-D710E/dp/B072QDHT11</a>
+( Valley Enterprises version is not compatible with RT Systems, but works really well for programming the radio with Kenwood software and accessing the TNC)</p>
+</div>
+<div class="paragraph">
+<p>You plug the USB side into the PC.
+Plug the 8 pin accessory plug in the back of the head unit of the D710 labeled COM (NOT in the main body, that is the programming port).
+Start a Winlink Packet or Packet P2P session.
+Pick the D710 from the dropdown menu.
+Pick the correct Serial Port for your USB cable.
+Change the Maximum frames to 2.
+Click OK.
+Pick a frequency and you are off to the races.</p>
+</div>
+<div class="paragraph">
+<p>Good forums for these questions are
+<a href="https://groups.google.com/forum/#!forum/winlink-programs-group" class="bare">https://groups.google.com/forum/#!forum/winlink-programs-group</a>
+<a href="https://groups.google.com/forum/#!forum/winlink_for_emcomm" class="bare">https://groups.google.com/forum/#!forum/winlink_for_emcomm</a></p>
+</div>
+<div class="paragraph">
+<p>73,
+Oliver K6OLI</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; https://www.arednmesh.org/content/kenwood-tm-d710g-and-winlink
+</div>
+</div>
+<div class="paragraph">
+<p><a href="https://www.arednmesh.org/content/kenwood-tm-d710g-and-winlink" class="bare">https://www.arednmesh.org/content/kenwood-tm-d710g-and-winlink</a></p>
+</div>
+</div>
+</div>
 <h1 id="_antennas" class="sect0">Antennas</h1>
+<div class="sect1">
+<h2 id="_antenna_design">Antenna Design</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>If you want to analyze an antenna design, AFAIK the only free software left for this is <a href="https://www.qsl.net/4nec2/" class="bare">https://www.qsl.net/4nec2/</a>
 It has a very steep learning curve, but it could be useful.
@@ -598,6 +694,20 @@ It has a very steep learning curve, but it could be useful.
 <div class="paragraph">
 <p>MMANA-GAL appears to be free antenna analysis software.
 MSWin only, sadly.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_mobile_antennas">Mobile Antennas</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you can stomach it, the NMO mount looks the best, as it&#8217;s a permanent mount on your roof.
+Originally bought Browning BR-1015-UHF from Amazon ($24) but what I received has the chrome plating flaking off and the fit &amp; finish are poor.</p>
+</div>
+<div class="paragraph">
+<p>Considering swapping for Larsen NMOK mount, which is <em>reputed</em> to be of better quality.</p>
+</div>
+</div>
 </div>
 <h1 id="_coolest_website_ever" class="sect0">Coolest Website Ever</h1>
 <div class="paragraph">
@@ -633,6 +743,27 @@ Proposed solution: APRSdriod running on cell phone, connected to a dual band Han
 </div>
 <div class="paragraph">
 <p>operating APRSdroid - what can you do with it?</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_project_2_winlink_on_kenwood_tm_d710ga">Project #2 - WinLink on Kenwood TM-D710GA</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://www.kenwood.com/usa/com/amateur/tm-d710ga/">Kenwood TM-D710GA</a></p>
+</div>
+<div class="paragraph">
+<p>See the section on WinLink and replicate it by sending email over winlink on that radio.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>can you receive email?</p>
+</li>
+<li>
+<p>can you send/receive from e.g. gmail??</p>
+</li>
+</ol>
 </div>
 </div>
 </div>
@@ -925,7 +1056,7 @@ by Arie Voors", <a href="https://www.qsl.net/4nec2/" class="bare">https://www.qs
 <div id="footer">
 <div id="footer-text">
 Version 0.4<br>
-Last updated 2021-07-22 15:42:03 -0700
+Last updated 2021-07-26 13:45:36 -0700
 </div>
 </div>
 </body>

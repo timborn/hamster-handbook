@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.4, July 22, 2021
+v0.4, July 26, 2021
 :toclevels 5:
 :icons: font
 :toc2:
@@ -40,6 +40,31 @@ While CW & voice are well understood and pretty stable, digital provides a ton o
 
 I'm attracted to digital modes because it appears it may be possible to get a message through with a low power transmitter when voice wouldn't cut it.
 
+== Digital Voice
+
+Who would have thought there would be competition in digital voice?
+I see DMR on the European models, and that appears to be TDMA (duplexing two channels in one 12.5 kHz band).
+As a standard, all vendors can mfgr this, and several do.
+
+
+
+I see C4FM WIRES-X on Yaesu radios.
+C4FM appears to refer to the digital voice, and WIRES-X appears to refer to linking across the internet.
+
+AKA System Fusion?  Circa 2014?
+Great audio quality.
+Can mux voice & data.
+
+other reflectors (repeaters?) that work with C4FM:
+
+. FCS
+. YSF?
+
+ICOM likes D-STAR.  Japan Amateur Radio League, circa 2001.
+Oldest digital format.
+
+Internet is the weak link, and many of these look to be proprietary.
+
 == ALE - Automatic Link Establishment
 
 Problem: after a disaster how to hams reconnect with each other?
@@ -66,14 +91,54 @@ Tutorial for beginners and MMTTY software (MSWin only, alas) available at https:
 
 "LSB is the convention for AFSK"
 
+== WinLink
+
+WinLink - global radio email - https://www.winlink.org/
+
+[quote, https://www.arednmesh.org/content/kenwood-tm-d710g-and-winlink]
+____
+\... there is even a setting in Winlink Packet for the D710.
+
+All you need is USB-K5G cable either from
+RT Systems https://www.rtsystemsinc.com/TM-D710-programming-software-and-USB-cable-s/1882.htm
+or Amazon https://smile.amazon.com/Valley-Enterprises-Programming-TM-D710A-TM-D710E/dp/B072QDHT11
+( Valley Enterprises version is not compatible with RT Systems, but works really well for programming the radio with Kenwood software and accessing the TNC)
+
+You plug the USB side into the PC.
+Plug the 8 pin accessory plug in the back of the head unit of the D710 labeled COM (NOT in the main body, that is the programming port).
+Start a Winlink Packet or Packet P2P session.
+Pick the D710 from the dropdown menu.
+Pick the correct Serial Port for your USB cable.
+Change the Maximum frames to 2.
+Click OK.
+Pick a frequency and you are off to the races.
+
+Good forums for these questions are
+https://groups.google.com/forum/\#!forum/winlink-programs-group
+https://groups.google.com/forum/#!forum/winlink_for_emcomm
+
+73,
+Oliver K6OLI
+____
+
+https://www.arednmesh.org/content/kenwood-tm-d710g-and-winlink
+
 = Antennas
 
+== Antenna Design
 If you want to analyze an antenna design, AFAIK the only free software left for this is https://www.qsl.net/4nec2/
 It has a very steep learning curve, but it could be useful.
 (extra credit: is the fractal antenna in White Collar really an antenna?  What properties do you get from the fractal shape?)
 
 MMANA-GAL appears to be free antenna analysis software.
 MSWin only, sadly.
+
+== Mobile Antennas
+
+If you can stomach it, the NMO mount looks the best, as it's a permanent mount on your roof.
+Originally bought Browning BR-1015-UHF from Amazon ($24) but what I received has the chrome plating flaking off and the fit & finish are poor.
+
+Considering swapping for Larsen NMOK mount, which is _reputed_ to be of better quality.
 
 = Coolest Website Ever
 
@@ -100,6 +165,15 @@ SITE for APRSdroid and where you can download it free
 Phyical wiring and cable construction
 
 operating APRSdroid - what can you do with it?
+
+== Project #2 - WinLink on Kenwood TM-D710GA
+
+https://www.kenwood.com/usa/com/amateur/tm-d710ga/[Kenwood TM-D710GA]
+
+See the section on WinLink and replicate it by sending email over winlink on that radio.
+
+. can you receive email?
+. can you send/receive from e.g. gmail??
 
 = Reference Materials
 
