@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.4, July 26, 2021
+v0.5, July 27, 2021
 :toclevels 5:
 :icons: font
 :toc2:
@@ -71,11 +71,15 @@ Problem: after a disaster how to hams reconnect with each other?
 
 Solution: ALE is a set of fixed frequencies and a protocol for scanning those frequencies to find and reconnect hams to each other.
 
-== APRS -
+== APRS - Automatic Packet Reporting System
+
+Don't make the mistake of calling it 'Automatic Position Reporting System' or Bob will get annoyed.
 
 digipeater, iGate, microsat, aprsdroid
 
 https://aprs.fi
+
+https://smsgte.org/[SMSGTE] is a way to bridge APRS messaging and SMS (cell phone texting).
 
 == JS8CALL
 
@@ -175,6 +179,23 @@ See the section on WinLink and replicate it by sending email over winlink on tha
 . can you receive email?
 . can you send/receive from e.g. gmail??
 
+== Project #3 - Listen to the International Space Station
+
+Even with a handheld, if you know the frequency and when to expect them, you can always listen in.
+
+https://spotthestation.nasa.gov/sightings/view.cfm?country=United_States&region=Arizona&city=Phoenix#.YQBMBRNKg-Q
+
+== Project #4 - See How Far You Can Whisper
+
+Using something like WSTJ-X and the WSPR protocol, you can experiment to see how far you can actually go on a few watts (or less!).
+Multi-platform, multiband, cool mapping tool to see your results.
+
+https://physics.princeton.edu/pulsar/k1jt/wspr.html[WSPR]
+
+== Project #5 - Send A Text Message From Your Radio
+
+Try using https://smsgte.org/[SMSGTE] to connect (bi-directionally!) your APRS-enabled radio with SMS.
+
 = Reference Materials
 
 == Phonetic Alphabet
@@ -264,7 +285,8 @@ image::images/Band Chart.pdf[]
 |A7A-A7Z |Qatar (State of)
 |A8A-A8Z |Liberia (Republic of)
 |A9A-A9Z |Bahrain (State of)
-|BAA-BZZ |China (People's Republic of)
+|BAA-BZZ |China (People's Republic of) (see carve-out for Taiwan below)
+|BM-BQ, BU-BX |Taiwan
 |CAA-CEZ |Chile
 |CFA-CKZ |Canada
 |CLA-CMZ |Cuba
@@ -569,5 +591,6 @@ http://www.arrl.org/international-call-sign-series
 . 4NEC2 - "NEC based antenna modeler and optimizer
 by Arie Voors", https://www.qsl.net/4nec2/
 . MMANA-GAL - antenna analysis software, https://hamsoft.ca/pages/mmana-gal.php
+. WSJT-X - a collection of weak-signal protocols; multiplatform - https://physics.princeton.edu//pulsar/K1JT/wsjtx.html
 
 
