@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.5, July 27, 2021
+v0.5, August 1, 2021
 :toclevels 5:
 :icons: font
 :toc2:
@@ -99,6 +99,9 @@ Tutorial for beginners and MMTTY software (MSWin only, alas) available at https:
 
 WinLink - global radio email - https://www.winlink.org/
 
+https://woad.sumusltd.com/[WoAD] is a WinLink client that runs on Android.
+This looks promising.
+
 [quote, https://www.arednmesh.org/content/kenwood-tm-d710g-and-winlink]
 ____
 \... there is even a setting in Winlink Packet for the D710.
@@ -170,14 +173,16 @@ Phyical wiring and cable construction
 
 operating APRSdroid - what can you do with it?
 
-== Project #2 - WinLink on Kenwood TM-D710GA
+== Project #2 - WinLink on Android
 
-https://www.kenwood.com/usa/com/amateur/tm-d710ga/[Kenwood TM-D710GA]
-
-See the section on WinLink and replicate it by sending email over winlink on that radio.
+See the section on WinLink and replicate it by sending email over winlink on Tera HT (using the cable from project #1 above).
 
 . can you receive email?
 . can you send/receive from e.g. gmail??
+. can you replicate this with mobile radio in your truck?
+
+How does the choice of SSID affect this?
+What would a sane policy for using SSID with WinLink be?
 
 == Project #3 - Listen to the International Space Station
 
