@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.5, August 1, 2021
+v0.6, August 4, 2021
 :toclevels 5:
 :icons: font
 :toc2:
@@ -80,6 +80,22 @@ Check out YouTube for Denver Radio Club "DRC Packet Radio Class 01".
 Circa 1992 but it has the details and the history.
 Excellent.
 
+=== TNC - Terminal Node Controller
+
+The TNC shows up in many of the digital packet solutions.
+A TNC is like a modem in that it talks analog (tones) to the radio and digital messages to the computer.
+The protocol appears to (often?  always?) be AX.25.
+
+image::images/TNC.png[]
+
+There are lots of dead solutions out there.
+Mobilinkd appears to be one of the few hardware solutions still going.
+Direwolf is a software solution (multiple platforms) that leverages the considerable processing power in todays computers plugs the audio cards.
+
+Apparently packets work pretty well on VHF but on HF the noise and contention is often a problem, so some people are experimenting with packets not using AX.25.
+
+http://wa8lmf.net/FLdigiAPRS/index.htm["Using FLdigi For APRS Over Non-AX.25 Modes"], Stephen H. Smith
+
 === ALE - Automatic Link Establishment
 
 Problem: after a disaster how to hams reconnect with each other?
@@ -98,7 +114,11 @@ https://smsgte.org/[SMSGTE] is a way to bridge APRS messaging and SMS (cell phon
 
 === JS8CALL
 
-???
+Julian OH8STN likes JS8CALL for actual comms during emergencies.
+Works well with low power.
+Appears to be point-to-point rather than email.
+
+
 
 === RTTY
 
@@ -610,7 +630,16 @@ http://www.arrl.org/international-call-sign-series
 . ARRL - American Radio Relay League.  arrl.org
 . 4NEC2 - "NEC based antenna modeler and optimizer
 by Arie Voors", https://www.qsl.net/4nec2/
+. Direwolf - software TNC - https://packet-radio.net/direwolf.  See also github.
+. JS8CALL - http://js8call.com/
+. Mobilinkd - hardware TNC - https://www.mobilinkd.com
 . MMANA-GAL - antenna analysis software, https://hamsoft.ca/pages/mmana-gal.php
 . WSJT-X - a collection of weak-signal protocols; multiplatform - https://physics.princeton.edu//pulsar/K1JT/wsjtx.html
 
+== Log Book
 
+image::images/logsheet_sample_rot.png[width=120%, pdfwidth=120%]
+
+image::images/logsheet_sample_rot.png[width=120%, pdfwidth=120%]
+image::images/logsheet_sample_rot.png[width=120%, pdfwidth=120%]
+image::images/logsheet_sample_rot.png[width=120%, pdfwidth=120%]

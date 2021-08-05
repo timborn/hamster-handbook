@@ -443,8 +443,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="details">
 <span id="author" class="author">Tim Born</span><br>
 <span id="email" class="email"><a href="mailto:Timothy.D.Born@gmail.com">Timothy.D.Born@gmail.com</a></span><br>
-<span id="revnumber">version 0.5,</span>
-<span id="revdate">July 27, 2021</span>
+<span id="revnumber">version 0.6,</span>
+<span id="revdate">August 4, 2021</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -454,33 +454,35 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_morse_code">Morse Code</a></li>
 <li><a href="#_voice">Voice</a></li>
 <li><a href="#_digital_modes">Digital Modes</a>
-<ul class="sectlevel1">
+<ul class="sectlevel2">
 <li><a href="#_digital_voice">Digital Voice</a></li>
+<li><a href="#_packet">Packet</a></li>
+<li><a href="#_tnc_terminal_node_controller">TNC - Terminal Node Controller</a></li>
 <li><a href="#_ale_automatic_link_establishment">ALE - Automatic Link Establishment</a></li>
-<li><a href="#_aprs">APRS -</a></li>
+<li><a href="#_aprs_automatic_packet_reporting_system">APRS - Automatic Packet Reporting System</a></li>
 <li><a href="#_js8call">JS8CALL</a></li>
 <li><a href="#_rtty">RTTY</a></li>
 <li><a href="#_winlink">WinLink</a></li>
 </ul>
 </li>
 <li><a href="#_antennas">Antennas</a>
-<ul class="sectlevel1">
+<ul class="sectlevel2">
 <li><a href="#_antenna_design">Antenna Design</a></li>
 <li><a href="#_mobile_antennas">Mobile Antennas</a></li>
 </ul>
 </li>
 <li><a href="#_coolest_website_ever">Coolest Website Ever</a></li>
 <li><a href="#_projects">Projects</a>
-<ul class="sectlevel1">
+<ul class="sectlevel2">
 <li><a href="#_project_1_aprs_on_the_cheap">Project #1 - APRS on the Cheap</a></li>
-<li><a href="#_project_2_winlink_on_kenwood_tm_d710ga">Project #2 - WinLink on Kenwood TM-D710GA</a></li>
+<li><a href="#_project_2_winlink_on_android">Project #2 - WinLink on Android</a></li>
 <li><a href="#_project_3_listen_to_the_international_space_station">Project #3 - Listen to the International Space Station</a></li>
 <li><a href="#_project_4_see_how_far_you_can_whisper">Project #4 - See How Far You Can Whisper</a></li>
 <li><a href="#_project_5_send_a_text_message_from_your_radio">Project #5 - Send A Text Message From Your Radio</a></li>
 </ul>
 </li>
 <li><a href="#_reference_materials">Reference Materials</a>
-<ul class="sectlevel1">
+<ul class="sectlevel2">
 <li><a href="#_phonetic_alphabet">Phonetic Alphabet</a></li>
 <li><a href="#_q_codes">Q-Codes</a></li>
 <li><a href="#_band_chart">Band Chart</a></li>
@@ -488,6 +490,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#_references">References</a></li>
+<li><a href="#_log_book">Log Book</a></li>
 </ul>
 </div>
 </div>
@@ -509,7 +512,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
-<h1 id="_scenarios" class="sect0">Scenarios</h1>
+<div class="sect1">
+<h2 id="_scenarios">Scenarios</h2>
+<div class="sectionbody">
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -519,7 +524,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>automatic position reporting (see APRS)</p>
 </li>
 <li>
-<p>operating remotely - QRM, solar powered</p>
+<p>operating remotely - QRM, solar-powered</p>
 </li>
 <li>
 <p>operating remotely - canyons and other obstacles</p>
@@ -529,20 +534,32 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ol>
 </div>
-<h1 id="_morse_code" class="sect0">Morse Code</h1>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_morse_code">Morse Code</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>For completeness, Morse code (CW) is included.
 It requires you to learn Morse, however.
-From many perspectives, CW is optimal - low bandwidth, low power, it can get through whenm voice cannot, and the kit to start operating is probably the least expensive&#8201;&#8212;&#8201;assuming you can get past the 'learn Morse' part.</p>
+From many perspectives, CW is optimal - low bandwidth, low power, it can get through when voice cannot, and the kit to start operating is probably the least expensive&#8201;&#8212;&#8201;assuming you can get past the 'learn Morse' part.</p>
 </div>
 <div class="paragraph">
 <p>Morse code used to be called Continuous Wave (CW).</p>
 </div>
-<h1 id="_voice" class="sect0">Voice</h1>
-<div class="paragraph">
-<p>AM, FM, side band</p>
 </div>
-<h1 id="_digital_modes" class="sect0">Digital Modes</h1>
+</div>
+<div class="sect1">
+<h2 id="_voice">Voice</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>AM, FM, sideband</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_digital_modes">Digital Modes</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>It appears that digital is where a lot of the experimentation is happening.
 While CW &amp; voice are well understood and pretty stable, digital provides a ton of opportunities to play with protocols, error checking &amp; correction, TDMA, data+voice and a ton of other things.</p>
@@ -550,9 +567,8 @@ While CW &amp; voice are well understood and pretty stable, digital provides a t
 <div class="paragraph">
 <p>I&#8217;m attracted to digital modes because it appears it may be possible to get a message through with a low power transmitter when voice wouldn&#8217;t cut it.</p>
 </div>
-<div class="sect1">
-<h2 id="_digital_voice">Digital Voice</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_digital_voice">Digital Voice</h3>
 <div class="paragraph">
 <p>Who would have thought there would be competition in digital voice?
 I see DMR on the European models, and that appears to be TDMA (duplexing two channels in one 12.5 kHz band).
@@ -588,10 +604,54 @@ Oldest digital format.</p>
 <p>Internet is the weak link, and many of these look to be proprietary.</p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_packet">Packet</h3>
+<div class="paragraph">
+<p>How does "packet" relate to APRS or WinLink?
+Or is "packet" some separate thingy?</p>
 </div>
-<div class="sect1">
-<h2 id="_ale_automatic_link_establishment">ALE - Automatic Link Establishment</h2>
-<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>"Since the late 1990s, most AX.25 usage has shifted to a different one-to-many communication paradigm with the Automatic Packet Reporting System (APRS)".</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; wikipedia
+</div>
+</div>
+<div class="paragraph">
+<p>Check out YouTube for Denver Radio Club "DRC Packet Radio Class 01".
+Circa 1992 but it has the details and the history.
+Excellent.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tnc_terminal_node_controller">TNC - Terminal Node Controller</h3>
+<div class="paragraph">
+<p>The TNC shows up in many of the digital packet solutions.
+A TNC is like a modem in that it talks analog (tones) to the radio and digital messages to the computer.
+The protocol appears to (often?  always?) be AX.25.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./images/TNC.png" alt="TNC">
+</div>
+</div>
+<div class="paragraph">
+<p>There are lots of dead solutions out there.
+Mobilinkd appears to be one of the few hardware solutions still going.
+Direwolf is a software solution (multiple platforms) that leverages the considerable processing power in todays computers plugs the audio cards.</p>
+</div>
+<div class="paragraph">
+<p>Apparently packets work pretty well on VHF but on HF the noise and contention is often a problem, so some people are experimenting with packets not using AX.25.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://wa8lmf.net/FLdigiAPRS/index.htm">"Using FLdigi For APRS Over Non-AX.25 Modes"</a>, Stephen H. Smith</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ale_automatic_link_establishment">ALE - Automatic Link Establishment</h3>
 <div class="paragraph">
 <p>Problem: after a disaster how to hams reconnect with each other?</p>
 </div>
@@ -599,10 +659,11 @@ Oldest digital format.</p>
 <p>Solution: ALE is a set of fixed frequencies and a protocol for scanning those frequencies to find and reconnect hams to each other.</p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_aprs_automatic_packet_reporting_system">APRS - Automatic Packet Reporting System</h3>
+<div class="paragraph">
+<p>Don&#8217;t make the mistake of calling it 'Automatic Position Reporting System' or Bob will get annoyed.</p>
 </div>
-<div class="sect1">
-<h2 id="_aprs">APRS -</h2>
-<div class="sectionbody">
 <div class="paragraph">
 <p>digipeater, iGate, microsat, aprsdroid</p>
 </div>
@@ -613,18 +674,16 @@ Oldest digital format.</p>
 <p><a href="https://smsgte.org/">SMSGTE</a> is a way to bridge APRS messaging and SMS (cell phone texting).</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_js8call">JS8CALL</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_js8call">JS8CALL</h3>
 <div class="paragraph">
-<p>???</p>
+<p>Julian OH8STN likes JS8CALL for actual comms during emergencies.
+Works well with low power.
+Appears to be point-to-point rather than email.</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_rtty">RTTY</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_rtty">RTTY</h3>
 <div class="paragraph">
 <p><strong>R</strong>adio <strong>T</strong>ele<strong>TY</strong>pe - pretty vintage stuff, but still being used, apparently.</p>
 </div>
@@ -642,12 +701,14 @@ Oldest digital format.</p>
 <p>"LSB is the convention for AFSK"</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_winlink">WinLink</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_winlink">WinLink</h3>
 <div class="paragraph">
 <p>WinLink - global radio email - <a href="https://www.winlink.org/" class="bare">https://www.winlink.org/</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://woad.sumusltd.com/">WoAD</a> is a WinLink client that runs on Android.
+This looks promising.</p>
 </div>
 <div class="quoteblock">
 <blockquote>
@@ -689,10 +750,12 @@ Oliver K6OLI</p>
 </div>
 </div>
 </div>
-<h1 id="_antennas" class="sect0">Antennas</h1>
+</div>
 <div class="sect1">
-<h2 id="_antenna_design">Antenna Design</h2>
+<h2 id="_antennas">Antennas</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_antenna_design">Antenna Design</h3>
 <div class="paragraph">
 <p>If you want to analyze an antenna design, AFAIK the only free software left for this is <a href="https://www.qsl.net/4nec2/" class="bare">https://www.qsl.net/4nec2/</a>
 It has a very steep learning curve, but it could be useful.
@@ -703,10 +766,8 @@ It has a very steep learning curve, but it could be useful.
 MSWin only, sadly.</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_mobile_antennas">Mobile Antennas</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_mobile_antennas">Mobile Antennas</h3>
 <div class="paragraph">
 <p>If you can stomach it, the NMO mount looks the best, as it&#8217;s a permanent mount on your roof.
 Originally bought Browning BR-1015-UHF from Amazon ($24) but what I received has the chrome plating flaking off and the fit &amp; finish are poor.</p>
@@ -716,7 +777,10 @@ Originally bought Browning BR-1015-UHF from Amazon ($24) but what I received has
 </div>
 </div>
 </div>
-<h1 id="_coolest_website_ever" class="sect0">Coolest Website Ever</h1>
+</div>
+<div class="sect1">
+<h2 id="_coolest_website_ever">Coolest Website Ever</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>Imagine being able to operate a ham radio (receive only) from your browser.
 Practice dialing in signals and understanding the bands.
@@ -734,33 +798,31 @@ Thanks to Software Defined Radio [SDR] and some generous people, you can!</p>
 <div class="paragraph">
 <p>SDR is pretty magical, in that dozens of people can operate simultaneously.</p>
 </div>
-<h1 id="_projects" class="sect0">Projects</h1>
+</div>
+</div>
 <div class="sect1">
-<h2 id="_project_1_aprs_on_the_cheap">Project #1 - APRS on the Cheap</h2>
+<h2 id="_projects">Projects</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_project_1_aprs_on_the_cheap">Project #1 - APRS on the Cheap</h3>
 <div class="paragraph">
 <p>Minimal materials to get experience with APRS.
-Proposed solution: APRSdriod running on cell phone, connected to a dual band Handy Talkie (HT).</p>
+Proposed solution: APRSdriod running on cell phone, connected to a dual-band Handy Talkie (HT).</p>
 </div>
 <div class="paragraph">
 <p>SITE for APRSdroid and where you can download it free</p>
 </div>
 <div class="paragraph">
-<p>Phyical wiring and cable construction</p>
+<p>Physical wiring and cable construction</p>
 </div>
 <div class="paragraph">
 <p>operating APRSdroid - what can you do with it?</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_project_2_winlink_on_kenwood_tm_d710ga">Project #2 - WinLink on Kenwood TM-D710GA</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_project_2_winlink_on_android">Project #2 - WinLink on Android</h3>
 <div class="paragraph">
-<p><a href="https://www.kenwood.com/usa/com/amateur/tm-d710ga/">Kenwood TM-D710GA</a></p>
-</div>
-<div class="paragraph">
-<p>See the section on WinLink and replicate it by sending email over winlink on that radio.</p>
+<p>See the section on WinLink and replicate it by sending email over winlink on Tera HT (using the cable from project #1 above).</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -770,13 +832,18 @@ Proposed solution: APRSdriod running on cell phone, connected to a dual band Han
 <li>
 <p>can you send/receive from e.g. gmail??</p>
 </li>
+<li>
+<p>can you replicate this with mobile radio in your truck?</p>
+</li>
 </ol>
 </div>
+<div class="paragraph">
+<p>How does the choice of SSID affect this?
+What would a sane policy for using SSID with WinLink be?</p>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_project_3_listen_to_the_international_space_station">Project #3 - Listen to the International Space Station</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_project_3_listen_to_the_international_space_station">Project #3 - Listen to the International Space Station</h3>
 <div class="paragraph">
 <p>Even with a handheld, if you know the frequency and when to expect them, you can always listen in.</p>
 </div>
@@ -784,10 +851,8 @@ Proposed solution: APRSdriod running on cell phone, connected to a dual band Han
 <p><a href="https://spotthestation.nasa.gov/sightings/view.cfm?country=United_States&amp;region=Arizona&amp;city=Phoenix#.YQBMBRNKg-Q" class="bare">https://spotthestation.nasa.gov/sightings/view.cfm?country=United_States&amp;region=Arizona&amp;city=Phoenix#.YQBMBRNKg-Q</a></p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_project_4_see_how_far_you_can_whisper">Project #4 - See How Far You Can Whisper</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_project_4_see_how_far_you_can_whisper">Project #4 - See How Far You Can Whisper</h3>
 <div class="paragraph">
 <p>Using something like WSTJ-X and the WSPR protocol, you can experiment to see how far you can actually go on a few watts (or less!).
 Multi-platform, multiband, cool mapping tool to see your results.</p>
@@ -796,19 +861,19 @@ Multi-platform, multiband, cool mapping tool to see your results.</p>
 <p><a href="https://physics.princeton.edu/pulsar/k1jt/wspr.html">WSPR</a></p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_project_5_send_a_text_message_from_your_radio">Project #5 - Send A Text Message From Your Radio</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_project_5_send_a_text_message_from_your_radio">Project #5 - Send A Text Message From Your Radio</h3>
 <div class="paragraph">
 <p>Try using <a href="https://smsgte.org/">SMSGTE</a> to connect (bi-directionally!) your APRS-enabled radio with SMS.</p>
 </div>
 </div>
 </div>
-<h1 id="_reference_materials" class="sect0">Reference Materials</h1>
+</div>
 <div class="sect1">
-<h2 id="_phonetic_alphabet">Phonetic Alphabet</h2>
+<h2 id="_reference_materials">Reference Materials</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_phonetic_alphabet">Phonetic Alphabet</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -949,10 +1014,8 @@ Multi-platform, multiband, cool mapping tool to see your results.</p>
 </tbody>
 </table>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_q_codes">Q-Codes</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_q_codes">Q-Codes</h3>
 <div class="paragraph">
 <p>Q-signals are a system of radio shorthand as old as wireless and developed from even older telegraphy codes. Q-signals are a set of abbreviations for common information that save time and allow communication between operators who don’t speak a common language. Modern ham radio uses them extensively. The table below lists the most common Q-signals used by hams. While Q-signals were developed for use by Morse operators, their use is common on phone, as well. You will often hear, “QRZed?” as someone asks “Who is calling me?” or “I’m getting a little QRM” from an operator receiving some interference or “Let’s QSY to 146.55” as two operators change from a repeater frequency to a nearby simplex communications frequency.</p>
 </div>
@@ -1064,20 +1127,16 @@ Multi-platform, multiband, cool mapping tool to see your results.</p>
 <p>REF: ARRL</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_band_chart">Band Chart</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_band_chart">Band Chart</h3>
 <div class="imageblock">
 <div class="content">
 <img src="./images/Band%20Chart.pdf" alt="Band Chart">
 </div>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_international_call_sign_directory">International Call Sign Directory</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_international_call_sign_directory">International Call Sign Directory</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 50%;">
@@ -2335,7 +2394,10 @@ Multi-platform, multiband, cool mapping tool to see your results.</p>
 </div>
 </div>
 </div>
-<h1 id="_references" class="sect0">References</h1>
+</div>
+<div class="sect1">
+<h2 id="_references">References</h2>
+<div class="sectionbody">
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -2346,6 +2408,15 @@ Multi-platform, multiband, cool mapping tool to see your results.</p>
 by Arie Voors", <a href="https://www.qsl.net/4nec2/" class="bare">https://www.qsl.net/4nec2/</a></p>
 </li>
 <li>
+<p>Direwolf - software TNC - <a href="https://packet-radio.net/direwolf" class="bare">https://packet-radio.net/direwolf</a>.  See also github.</p>
+</li>
+<li>
+<p>JS8CALL - <a href="http://js8call.com/" class="bare">http://js8call.com/</a></p>
+</li>
+<li>
+<p>Mobilinkd - hardware TNC - <a href="https://www.mobilinkd.com" class="bare">https://www.mobilinkd.com</a></p>
+</li>
+<li>
 <p>MMANA-GAL - antenna analysis software, <a href="https://hamsoft.ca/pages/mmana-gal.php" class="bare">https://hamsoft.ca/pages/mmana-gal.php</a></p>
 </li>
 <li>
@@ -2354,10 +2425,37 @@ by Arie Voors", <a href="https://www.qsl.net/4nec2/" class="bare">https://www.qs
 </ol>
 </div>
 </div>
+</div>
+<div class="sect1">
+<h2 id="_log_book">Log Book</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="./images/logsheet_sample_rot.png" alt="logsheet sample rot" width="120%">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./images/logsheet_sample_rot.png" alt="logsheet sample rot" width="120%">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./images/logsheet_sample_rot.png" alt="logsheet sample rot" width="120%">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./images/logsheet_sample_rot.png" alt="logsheet sample rot" width="120%">
+</div>
+</div>
+</div>
+</div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Version 0.5<br>
-Last updated 2021-07-27 11:29:30 -0700
+Version 0.6<br>
+Last updated 2021-08-04 17:34:57 -0700
 </div>
 </div>
 </body>
