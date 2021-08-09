@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.6, August 4, 2021
+v0.6, August 9, 2021
 :toclevels 5:
 :icons: font
 :toc2:
@@ -32,6 +32,29 @@ Morse code used to be called Continuous Wave (CW).
 == Voice
 
 AM, FM, sideband
+
+=== EchoLink
+
+EchoLink is voice + text messaging (depending on how you connect).
+The idea is to extend the reach by connecting "nodes" across the internet.
+You access a local node, squirt across the inet and finish the last mile from the radio at the far-end node.
+
+image::images/EchoLink.gif[]
+
+EchoLink node 598882 NY7S-R is West Valley Amateur Radio Club node.
+
+EchoLink node N2QOJ-R runs Central Arizona Youth Net on Sundays at 5pm.
+
+K7UGS Karen likes and uses EchoLink.
+I see Karen is operating EchoLink on a Samsung Galaxy S9 from Oregon!
+Apparently there is EchoLink for Android!
+
+The EchoLink website says it does not run on Mac but they recommend EchoHam from the app store.
+
+I was able to install EchoLink software on a Win11 VM, connect a USB microphone (it didn't like my bluetooth microphone) and bluetooth speakers and listened in on the Central Arizona Youth Net that meets Sunday nights (N2QOJ-R).
+
+- Net Control is Landon AI7HE.
+- Promoter/sponsor appears to be Joe Sammarino N2QOJ.
 
 == Digital Modes
 
@@ -96,6 +119,9 @@ Apparently packets work pretty well on VHF but on HF the noise and contention is
 
 http://wa8lmf.net/FLdigiAPRS/index.htm["Using FLdigi For APRS Over Non-AX.25 Modes"], Stephen H. Smith
 
+FLdigi is similar to Direwolf in that it is software, but it is not operating on AX.25.
+It does, however, leverage the soundcard on your computer as a DSP to construct and decode the tones.
+
 === ALE - Automatic Link Establishment
 
 Problem: after a disaster how to hams reconnect with each other?
@@ -118,7 +144,8 @@ Julian OH8STN likes JS8CALL for actual comms during emergencies.
 Works well with low power.
 Appears to be point-to-point rather than email.
 
-
+APRS Messanger is obsolete.
+The developer recommends using JS8CALL.
 
 === RTTY
 
@@ -208,7 +235,13 @@ Physical wiring and cable construction
 
 operating APRSdroid - what can you do with it?
 
-=== Project #2 - WinLink on Android
+=== Project #2 - EchoLink on the Cheap
+
+See the section on EchoLink.
+Install on a PC.
+Join the Sunday night net using your computer (or android).
+
+=== Project #3 - WinLink on Android
 
 See the section on WinLink and replicate it by sending email over winlink on Tera HT (using the cable from project #1 above).
 
@@ -219,20 +252,20 @@ See the section on WinLink and replicate it by sending email over winlink on Ter
 How does the choice of SSID affect this?
 What would a sane policy for using SSID with WinLink be?
 
-=== Project #3 - Listen to the International Space Station
+=== Project #4 - Listen to the International Space Station
 
 Even with a handheld, if you know the frequency and when to expect them, you can always listen in.
 
 https://spotthestation.nasa.gov/sightings/view.cfm?country=United_States&region=Arizona&city=Phoenix#.YQBMBRNKg-Q
 
-=== Project #4 - See How Far You Can Whisper
+=== Project #5 - See How Far You Can Whisper
 
 Using something like WSTJ-X and the WSPR protocol, you can experiment to see how far you can actually go on a few watts (or less!).
 Multi-platform, multiband, cool mapping tool to see your results.
 
 https://physics.princeton.edu/pulsar/k1jt/wspr.html[WSPR]
 
-=== Project #5 - Send A Text Message From Your Radio
+=== Project #6 - Send A Text Message From Your Radio
 
 Try using https://smsgte.org/[SMSGTE] to connect (bi-directionally!) your APRS-enabled radio with SMS.
 
@@ -631,6 +664,7 @@ http://www.arrl.org/international-call-sign-series
 . 4NEC2 - "NEC based antenna modeler and optimizer
 by Arie Voors", https://www.qsl.net/4nec2/
 . Direwolf - software TNC - https://packet-radio.net/direwolf.  See also github.
+. EchoLink - https://secure.echolink.org/.  RF to internet to RF, so you can connect to hams around the world.  Even better: your PC to internet to RF, so you can connect without even having a radio!
 . JS8CALL - http://js8call.com/
 . Mobilinkd - hardware TNC - https://www.mobilinkd.com
 . MMANA-GAL - antenna analysis software, https://hamsoft.ca/pages/mmana-gal.php

@@ -444,7 +444,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <span id="author" class="author">Tim Born</span><br>
 <span id="email" class="email"><a href="mailto:Timothy.D.Born@gmail.com">Timothy.D.Born@gmail.com</a></span><br>
 <span id="revnumber">version 0.6,</span>
-<span id="revdate">August 4, 2021</span>
+<span id="revdate">August 9, 2021</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -452,7 +452,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_overview">Overview</a></li>
 <li><a href="#_scenarios">Scenarios</a></li>
 <li><a href="#_morse_code">Morse Code</a></li>
-<li><a href="#_voice">Voice</a></li>
+<li><a href="#_voice">Voice</a>
+<ul class="sectlevel2">
+<li><a href="#_echolink">EchoLink</a></li>
+</ul>
+</li>
 <li><a href="#_digital_modes">Digital Modes</a>
 <ul class="sectlevel2">
 <li><a href="#_digital_voice">Digital Voice</a></li>
@@ -475,10 +479,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_projects">Projects</a>
 <ul class="sectlevel2">
 <li><a href="#_project_1_aprs_on_the_cheap">Project #1 - APRS on the Cheap</a></li>
-<li><a href="#_project_2_winlink_on_android">Project #2 - WinLink on Android</a></li>
-<li><a href="#_project_3_listen_to_the_international_space_station">Project #3 - Listen to the International Space Station</a></li>
-<li><a href="#_project_4_see_how_far_you_can_whisper">Project #4 - See How Far You Can Whisper</a></li>
-<li><a href="#_project_5_send_a_text_message_from_your_radio">Project #5 - Send A Text Message From Your Radio</a></li>
+<li><a href="#_project_2_echolink_on_the_cheap">Project #2 - EchoLink on the Cheap</a></li>
+<li><a href="#_project_3_winlink_on_android">Project #3 - WinLink on Android</a></li>
+<li><a href="#_project_4_listen_to_the_international_space_station">Project #4 - Listen to the International Space Station</a></li>
+<li><a href="#_project_5_see_how_far_you_can_whisper">Project #5 - See How Far You Can Whisper</a></li>
+<li><a href="#_project_6_send_a_text_message_from_your_radio">Project #6 - Send A Text Message From Your Radio</a></li>
 </ul>
 </li>
 <li><a href="#_reference_materials">Reference Materials</a>
@@ -554,6 +559,46 @@ From many perspectives, CW is optimal - low bandwidth, low power, it can get thr
 <div class="sectionbody">
 <div class="paragraph">
 <p>AM, FM, sideband</p>
+</div>
+<div class="sect2">
+<h3 id="_echolink">EchoLink</h3>
+<div class="paragraph">
+<p>EchoLink is voice + text messaging (depending on how you connect).
+The idea is to extend the reach by connecting "nodes" across the internet.
+You access a local node, squirt across the inet and finish the last mile from the radio at the far-end node.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./images/EchoLink.gif" alt="EchoLink">
+</div>
+</div>
+<div class="paragraph">
+<p>EchoLink node 598882 NY7S-R is West Valley Amateur Radio Club node.</p>
+</div>
+<div class="paragraph">
+<p>EchoLink node N2QOJ-R runs Central Arizona Youth Net on Sundays at 5pm.</p>
+</div>
+<div class="paragraph">
+<p>K7UGS Karen likes and uses EchoLink.
+I see Karen is operating EchoLink on a Samsung Galaxy S9 from Oregon!
+Apparently there is EchoLink for Android!</p>
+</div>
+<div class="paragraph">
+<p>The EchoLink website says it does not run on Mac but they recommend EchoHam from the app store.</p>
+</div>
+<div class="paragraph">
+<p>I was able to install EchoLink software on a Win11 VM, connect a USB microphone (it didn&#8217;t like my bluetooth microphone) and bluetooth speakers and listened in on the Central Arizona Youth Net that meets Sunday nights (N2QOJ-R).</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Net Control is Landon AI7HE.</p>
+</li>
+<li>
+<p>Promoter/sponsor appears to be Joe Sammarino N2QOJ.</p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 </div>
@@ -649,6 +694,10 @@ Direwolf is a software solution (multiple platforms) that leverages the consider
 <div class="paragraph">
 <p><a href="http://wa8lmf.net/FLdigiAPRS/index.htm">"Using FLdigi For APRS Over Non-AX.25 Modes"</a>, Stephen H. Smith</p>
 </div>
+<div class="paragraph">
+<p>FLdigi is similar to Direwolf in that it is software, but it is not operating on AX.25.
+It does, however, leverage the soundcard on your computer as a DSP to construct and decode the tones.</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_ale_automatic_link_establishment">ALE - Automatic Link Establishment</h3>
@@ -680,6 +729,10 @@ Direwolf is a software solution (multiple platforms) that leverages the consider
 <p>Julian OH8STN likes JS8CALL for actual comms during emergencies.
 Works well with low power.
 Appears to be point-to-point rather than email.</p>
+</div>
+<div class="paragraph">
+<p>APRS Messanger is obsolete.
+The developer recommends using JS8CALL.</p>
 </div>
 </div>
 <div class="sect2">
@@ -820,7 +873,15 @@ Proposed solution: APRSdriod running on cell phone, connected to a dual-band Han
 </div>
 </div>
 <div class="sect2">
-<h3 id="_project_2_winlink_on_android">Project #2 - WinLink on Android</h3>
+<h3 id="_project_2_echolink_on_the_cheap">Project #2 - EchoLink on the Cheap</h3>
+<div class="paragraph">
+<p>See the section on EchoLink.
+Install on a PC.
+Join the Sunday night net using your computer (or android).</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_project_3_winlink_on_android">Project #3 - WinLink on Android</h3>
 <div class="paragraph">
 <p>See the section on WinLink and replicate it by sending email over winlink on Tera HT (using the cable from project #1 above).</p>
 </div>
@@ -843,7 +904,7 @@ What would a sane policy for using SSID with WinLink be?</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_project_3_listen_to_the_international_space_station">Project #3 - Listen to the International Space Station</h3>
+<h3 id="_project_4_listen_to_the_international_space_station">Project #4 - Listen to the International Space Station</h3>
 <div class="paragraph">
 <p>Even with a handheld, if you know the frequency and when to expect them, you can always listen in.</p>
 </div>
@@ -852,7 +913,7 @@ What would a sane policy for using SSID with WinLink be?</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_project_4_see_how_far_you_can_whisper">Project #4 - See How Far You Can Whisper</h3>
+<h3 id="_project_5_see_how_far_you_can_whisper">Project #5 - See How Far You Can Whisper</h3>
 <div class="paragraph">
 <p>Using something like WSTJ-X and the WSPR protocol, you can experiment to see how far you can actually go on a few watts (or less!).
 Multi-platform, multiband, cool mapping tool to see your results.</p>
@@ -862,7 +923,7 @@ Multi-platform, multiband, cool mapping tool to see your results.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_project_5_send_a_text_message_from_your_radio">Project #5 - Send A Text Message From Your Radio</h3>
+<h3 id="_project_6_send_a_text_message_from_your_radio">Project #6 - Send A Text Message From Your Radio</h3>
 <div class="paragraph">
 <p>Try using <a href="https://smsgte.org/">SMSGTE</a> to connect (bi-directionally!) your APRS-enabled radio with SMS.</p>
 </div>
@@ -2411,6 +2472,9 @@ by Arie Voors", <a href="https://www.qsl.net/4nec2/" class="bare">https://www.qs
 <p>Direwolf - software TNC - <a href="https://packet-radio.net/direwolf" class="bare">https://packet-radio.net/direwolf</a>.  See also github.</p>
 </li>
 <li>
+<p>EchoLink - <a href="https://secure.echolink.org/" class="bare">https://secure.echolink.org/</a>.  RF to internet to RF, so you can connect to hams around the world.  Even better: your PC to internet to RF, so you can connect without even having a radio!</p>
+</li>
+<li>
 <p>JS8CALL - <a href="http://js8call.com/" class="bare">http://js8call.com/</a></p>
 </li>
 <li>
@@ -2455,7 +2519,7 @@ by Arie Voors", <a href="https://www.qsl.net/4nec2/" class="bare">https://www.qs
 <div id="footer">
 <div id="footer-text">
 Version 0.6<br>
-Last updated 2021-08-04 17:34:57 -0700
+Last updated 2021-08-09 08:08:12 -0700
 </div>
 </div>
 </body>
