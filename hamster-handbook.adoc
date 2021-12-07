@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.6, August 9, 2021
+v0.7, December 7, 2021
 :toclevels 5:
 :icons: font
 :toc2:
@@ -28,6 +28,8 @@ It requires you to learn Morse, however.
 From many perspectives, CW is optimal - low bandwidth, low power, it can get through when voice cannot, and the kit to start operating is probably the least expensive -- assuming you can get past the 'learn Morse' part.
 
 Morse code used to be called Continuous Wave (CW).
+
+I guess _technically_ CW is 'digital' and not some strange third type, so this section probably belongs under "Digital Modes".
 
 == Voice
 
@@ -152,6 +154,10 @@ The developer recommends using JS8CALL.
 **R**adio **T**ele**TY**pe - pretty vintage stuff, but still being used, apparently.
 
 Tutorial for beginners and MMTTY software (MSWin only, alas) available at https://hamsoft.ca/pages/mmtty.php
+
+https://blackcatsystems.com/software/multimode/rtty.html[MultiMode] (commercial) runs on a mac and will decode RTTY.
+
+Seems like the RPi would be a natural for RTTY.
 
 . AFSK - ?
 
