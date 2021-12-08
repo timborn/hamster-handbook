@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.7, December 7, 2021
+v0.7, December 8, 2021
 :toclevels 5:
 :icons: font
 :toc2:
@@ -215,6 +215,78 @@ Originally bought Browning BR-1015-UHF from Amazon ($24) but what I received has
 
 Considering swapping for Larsen NMOK mount, which is _reputed_ to be of better quality.
 
+=== Antenna Standards
+
+[quote, Andrew Tanenbaum]
+The nice thing about standards is that you have so many to choose from.
+
+[quote, https://www.arcantenna.com/blogs/news/uhf-pl259-so239-what-is-the-difference]
+Typically, the SO-239 (UHF Female/UHF Jack) is installed ON THE RADIO, and the PL-259 (UHF Male/UHF Plug) is installed ON THE CABLE.  The two "mate" and are collectively known as a UHF Connection.
+
+image::images/PL-259_Male_and_SO-239_Female_480x480.jpeg[]
+
+For most desktop and mobile radios, the radio will have a female SO-239 connector.
+Likewise, many (not all) antenna bases will have female SO-239 connector,
+Therefore, typical 50 ohm coax with male PL-259 connectors on both ends would be used to connect radio to antenna.
+
+Handheld radios tend to have SMA connectors.
+There doesn't appear to be any standard usage of male vs female, unfortunately.
+
+Occasionally you find BNC connectors being used.
+Not clear when or why.
+
+=== Antenna Vendors
+
+https://edsantennas.weebly.com[Ed's Antennas] are pretty sane looking 2M/1.25M/70cm antennas.
+
+== Radios
+
+=== QRP Labs QDX (SDR)
+
+This is a SDR radio, covering 4 HF bands at 5W.
+It's a kit that ends up about the size of a deck of cards.
+$60 for the kit, $80 if you include the case.
+
+Pros:
+
+. super small size and small price!
+. perfect for all those digital modes
+. SINGLE USB CABLE between computer and radio.  Genius!
+
+Cons
+
+. it's a kit
+. it sold out immediately and the global parts shortage is delaying resupply
+. it uses 9V instead of 12V.  Why?
+
+Watch this in future.  Expect 12V power and assembled radios at a higher price.
+Still probably the closest to perfect for digital on HF.
+
+=== RTL-SDR V3
+
+Featured on Frugal Radio on YouTube.
+
+Typical SDR features:
+
+. Spectrum Analyzer!
+. multiple VFOs, so you can listen on multiple broadcasts simultaenously.
+
+=== Nooelec SMARt V4 (SDR)
+
+Featured on Frugal Radio on YouTube.
+
+=== Generic DVB (SDR)
+
+Featured on Frugal Radio on YouTube.
+
+=== AirSpy (SDR)
+
+Featured on Frugal Radio on YouTube.
+
+=== ADALM-PLUTO (SDR)
+
+Featured on Frugal Radio on YouTube.
+
 == Coolest Website Ever
 
 Imagine being able to operate a ham radio (receive only) from your browser.
@@ -274,6 +346,16 @@ https://physics.princeton.edu/pulsar/k1jt/wspr.html[WSPR]
 === Project #6 - Send A Text Message From Your Radio
 
 Try using https://smsgte.org/[SMSGTE] to connect (bi-directionally!) your APRS-enabled radio with SMS.
+
+=== Project #7 - Build A UHF/VHF Radio
+
+See https://www.arrl.org/files/file/Get%20Licensed/Quickstart%20Guide%20EBOOK.pdf[ARRL Quickstart Guide For All Hams], page 12, "Build A Portable Ground Plane Antenna", by Zack Lau, W1VT.
+
+It seems cheap and simple, and you don't need an SWR meter.
+These are measurements for UHF & VHF antennas.
+
+NB VX-6R can operate on 70cm, 1.25M and 2M, so potentially three antennas.
+Can this same design work for receiving on other frequencies?
 
 == Reference Materials
 
