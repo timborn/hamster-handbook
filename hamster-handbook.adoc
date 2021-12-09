@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.7, December 8, 2021
+v0.7, December 9, 2021
 :toclevels 5:
 :icons: font
 :toc2:
@@ -208,6 +208,23 @@ It has a very steep learning curve, but it could be useful.
 MMANA-GAL appears to be free antenna analysis software.
 MSWin only, sadly.
 
+==== Calculating The Antenna Length For A Halfwave Dipole
+
+The length of a dipole is found by
+
+- 143 / freq = meters
+- 468 / freq = feet
+
+Each of the two radials would then be exactly half that calculated length for the halfwave dipole.
+
+Wait.  What?  I was taught
+
+wavelength = speed of light / frequency = 300 m/s / freq ==> meters
+
+What's this "143" stuff?
+Well, part of it is the *halfwave* dipole, so I expected 150.
+The rest is, perhaps, reality bites for speed of radio through air & copper.  Maybe.
+
 === Mobile Antennas
 
 If you can stomach it, the NMO mount looks the best, as it's a permanent mount on your roof.
@@ -283,9 +300,34 @@ Featured on Frugal Radio on YouTube.
 
 Featured on Frugal Radio on YouTube.
 
+https://airspy.com/[AirSpy].
+He demoed
+
 === ADALM-PLUTO (SDR)
 
 Featured on Frugal Radio on YouTube.
+
+== Free SDRs Online
+
+Featured on Frugal Radio on YouTube.
+
+. kiwisdr.com - worldwide list of receivers, despite the name
+. websdr.org
+
+In demo he routed audio from free web SDL to his decoder using PC-HFDL.
+HFDL (High Frequency Data Link) is the generic term for a system in use by long haul airlines for aircraft tracking and text messaging.
+
+== SDR Software
+There appears to be lots of SDR software for MSWin.
+
+For the mac:
+
+. CubicSDR (https://learn.adafruit.com/getting-started-with-rtl-sdr-and-sdr-sharp/cubicsdr-for-mac-os[short turorial])
+. airspy (which version?) seems to be available through Brew
+
+You may need to route the audio in some complex ways.
+Virtual Audio Cable works for MSWin only.
+Nearest mac solution appears to be https://vb-audio.com/Cable/
 
 == Coolest Website Ever
 
@@ -347,7 +389,7 @@ https://physics.princeton.edu/pulsar/k1jt/wspr.html[WSPR]
 
 Try using https://smsgte.org/[SMSGTE] to connect (bi-directionally!) your APRS-enabled radio with SMS.
 
-=== Project #7 - Build A UHF/VHF Radio
+=== Project #7 - Build A UHF/VHF Antenna
 
 See https://www.arrl.org/files/file/Get%20Licensed/Quickstart%20Guide%20EBOOK.pdf[ARRL Quickstart Guide For All Hams], page 12, "Build A Portable Ground Plane Antenna", by Zack Lau, W1VT.
 
@@ -356,6 +398,21 @@ These are measurements for UHF & VHF antennas.
 
 NB VX-6R can operate on 70cm, 1.25M and 2M, so potentially three antennas.
 Can this same design work for receiving on other frequencies?
+
+=== Project #8 - Build Spider Antenna for SDR (ADS-B)
+
+image::images/spider antenna.png[]
+
+https://www.amateurradiosupplies.com/product-p/cz7520.htm - UHF Male to F Female adapter.
+You will want this to connect SO239 on antenna to the F-connector on the RG6 (assuming you use the cheap coax).
+
+ADS-B is air traffic, centered around 1090 MHz.
+300/1090 = 0.275M or 27.5 cm for the full wavelength.
+The measurements in that picture are for 1/4 &#955;, thus the 6.8 cm.
+
+I believe this is the original post: https://discussions.flightaware.com/t/three-easy-diy-antennas-for-beginners/16348
+
+This is a subsequent post from someone else that adds more details: https://lucsmall.com/2017/02/06/making-antennas-for-1090mhz-ads-b-aircraft-tracking/
 
 == Reference Materials
 
