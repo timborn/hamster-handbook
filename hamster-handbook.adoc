@@ -115,7 +115,7 @@ image::images/TNC.png[]
 
 There are lots of dead solutions out there.
 Mobilinkd appears to be one of the few hardware solutions still going.
-Direwolf is a software solution (multiple platforms) that leverages the considerable processing power in todays computers plugs the audio cards.
+https://github.com/wb2osz/direwolf[Direwolf] is a software solution (multiple platforms) that leverages the considerable processing power in todays computers plugs the audio cards.
 
 Apparently packets work pretty well on VHF but on HF the noise and contention is often a problem, so some people are experimenting with packets not using AX.25.
 
@@ -324,10 +324,17 @@ For the mac:
 
 . CubicSDR (https://learn.adafruit.com/getting-started-with-rtl-sdr-and-sdr-sharp/cubicsdr-for-mac-os[short turorial])
 . airspy (which version?) seems to be available through Brew
+. https://gqrx.dk/[GQRX]
+. https://github.com/DSheirer/sdrtrunk[SDRTrunk]
 
 You may need to route the audio in some complex ways.
 Virtual Audio Cable works for MSWin only.
 Nearest mac solution appears to be https://vb-audio.com/Cable/
+
+https://www.rtl-sdr.com/tag/dragonos/[DragonOS] is a linux solution for RPi with SDR software preloaded.
+This may be worth looking at.
+
+See Also Radio Reference https://www.radioreference.com/[website] for loads of reference data, especially for trunking.
 
 == Coolest Website Ever
 
@@ -813,6 +820,8 @@ by Arie Voors", https://www.qsl.net/4nec2/
 . JS8CALL - http://js8call.com/
 . Mobilinkd - hardware TNC - https://www.mobilinkd.com
 . MMANA-GAL - antenna analysis software, https://hamsoft.ca/pages/mmana-gal.php
+. https://www.radioreference.com/[Radio Reference] - frequency database and trunked radio system information
+. "https://ranous.files.wordpress.com/2018/02/rtl-sdr4linux_quickstartv2-18.pdf[RTL-SDR for Linux Quick Start Guide]", 2nd ed.  Ken Ranous, KA0SBL
 . WSJT-X - a collection of weak-signal protocols; multiplatform - https://physics.princeton.edu//pulsar/K1JT/wsjtx.html
 
 == Log Book
