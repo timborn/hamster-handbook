@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.7, December 9, 2021
+v0.8, April 2, 2022
 :toclevels 5:
 :icons: font
 :toc2:
@@ -260,13 +260,13 @@ https://edsantennas.weebly.com[Ed's Antennas] are pretty sane looking 2M/1.25M/7
 
 === QRP Labs QDX (SDR)
 
-This is a SDR radio, covering 4 HF bands at 5W.
+This is an SDR radio, covering 4 HF bands at 5W.
 It's a kit that ends up about the size of a deck of cards.
 $60 for the kit, $80 if you include the case.
 
 Pros:
 
-. super small size and small price!
+. micro size and small price!
 . perfect for all those digital modes
 . SINGLE USB CABLE between computer and radio.  Genius!
 
@@ -286,7 +286,7 @@ Featured on Frugal Radio on YouTube.
 Typical SDR features:
 
 . Spectrum Analyzer!
-. multiple VFOs, so you can listen on multiple broadcasts simultaenously.
+. multiple VFOs, so you can listen on multiple broadcasts simultaneously.
 
 === Nooelec SMARt V4 (SDR)
 
@@ -392,6 +392,31 @@ Multi-platform, multiband, cool mapping tool to see your results.
 
 https://physics.princeton.edu/pulsar/k1jt/wspr.html[WSPR]
 
+April 2022 - I still don't have an HF radio yet, so I "borrowed" a websdr at http://44.127.32.234:8901/.
+Tune it to 14095.6 kHz, which is the WSPR freq for 20 meters.
+
+You wire up the audio from your web browser to WSJT-X using VB-Cable for mac.
+You must set the audio to 48,000 samples per second all the way through the chain!
+You do this using the MIDI controls on the mac (not the audio controls).
+
+In WSJT-X Preferences
+
+. general: your call sign and grid locator
+. radio: rig=none
+. audio: input=VB-Cable, output=mac speakers
+
+Mode = WSPR (the frequency should automatically switch to 14095.6 if you are on 20M).
+
+If you wait a few minutes you will start to see WSPR signals from all over the country!
+
+You can go to https://www.wsprnet.org/drupal/wsprnet/map[WSPR websight] and see a map of your contacts (assuming you enabled preferences / reporting / enable PSK reporter spotting).
+
+When I get a radio I would like to repeat this using my own rig and antenna.
+
+image::images/websdr.png[]
+
+image::images/WSPR map.png[]
+
 === Project #6 - Send A Text Message From Your Radio
 
 Try using https://smsgte.org/[SMSGTE] to connect (bi-directionally!) your APRS-enabled radio with SMS.
@@ -403,7 +428,7 @@ See https://www.arrl.org/files/file/Get%20Licensed/Quickstart%20Guide%20EBOOK.pd
 It seems cheap and simple, and you don't need an SWR meter.
 These are measurements for UHF & VHF antennas.
 
-NB VX-6R can operate on 70cm, 1.25M and 2M, so potentially three antennas.
+NB VX-6R can operate on 70 cm, 1.25 M and 2 M, so potentially three antennas.
 Can this same design work for receiving on other frequencies?
 
 === Project #8 - Build Spider Antenna for SDR (ADS-B)
