@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.8, April 2, 2022
+v0.8, June 11, 2022
 :toclevels 5:
 :icons: font
 :toc2:
@@ -139,6 +139,39 @@ digipeater, iGate, microsat, aprsdroid
 https://aprs.fi
 
 https://smsgte.org/[SMSGTE] is a way to bridge APRS messaging and SMS (cell phone texting).
+
+=== FT-8
+
+Install WSJTX ('brew install wsjtx' on a mac).
+
+==== What Is FT-8? / Why Use FT-8?
+
+FT-8 is one of many digital modes.
+As such it is very efficient, able to get out a signal on low power over great distances, and decode msgs even below the level of human hearing.
+
+FT-8 has a protocol for making contacts, but is not suitable for rag chewing.
+See JS8CALL or PSK31.
+
+==== How To Set Up FT-8?
+
+Make sure your callsign and grid square are set correctly.
+
+settings / general
+
+- double click on call sets TX enable
+- disable TX after sending 73
+- calling CQ forces call 1st
+
+Logging?
+Perhaps http://www.dl2rum.de/rumsoft/RUMLog.html[RUMlogNG] (mac app store) coupled with http://jt-bridge.eller.nu/[JT-Bridge] (brew!) to xlate from WSJTX to RUMlogNG.
+
+==== Using FT-8
+
+NB FT-8 uses split frequencies!
+
+==== WHAT FREQ TO USE?
+
+. https://www.g4ifb.com/FT8_Hinson_tips_for_HF_DXers.pdf[FT8 Operating Guide] Weak signal HF DXing for technophiles  by Gary Hinson ZL2iFB
 
 === JS8CALL
 
