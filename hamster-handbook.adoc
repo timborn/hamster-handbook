@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.8, June 11, 2022
+v0.8, July 6, 2022
 :toclevels 5:
 :icons: font
 :toc2:
@@ -522,7 +522,7 @@ Q-signals are a system of radio shorthand as old as wireless and developed from 
 |QRM |Your transmission is being interfered with _________ (1. Nil; 2. Slightly; 3. Moderately; 4. Severely; 5. Extremely.) Is my transmission being interfered with?
 |QRN |I am troubled by static _________. (1 to 5 as under QRM.) Are you troubled by static?
 |QRO |Increase power. Shall I increase power?
-|QRP |Decrease power. Shall I decrease power?
+|QRP |Low power / decrease power. Shall I decrease power?
 |QRQ |Send faster (_________wpm). Shall I send faster?
 |QRS |Send more slowly (_________wpm). Shall I send more slowly?
 |QRT |Stop sending. Shall I stop sending?
@@ -549,6 +549,10 @@ REF: ARRL
 === Band Chart
 
 image::images/Band Chart.pdf[]
+
+=== ITU Zones (U.S.)
+
+image::images/ARRL WAS map.pdf[]
 
 === International Call Sign Directory
 
