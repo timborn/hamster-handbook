@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.8, July 6, 2022
+v0.8, July 31, 2022
 :toclevels 5:
 :icons: font
 :toc2:
@@ -142,7 +142,16 @@ https://smsgte.org/[SMSGTE] is a way to bridge APRS messaging and SMS (cell phon
 
 === FT-8
 
-Install WSJTX ('brew install wsjtx' on a mac).
+- Install WSJTX ('brew install wsjtx' on a mac).
+- Install Grid Tracker ('brew install gridtracker') to get a map of contacts.
+You can see who is calling CQ and respond with a single click.
+I believe Grid Tracker can be set to report QSOs to LotW as they occur.
+Not required, but nice.
+- Install https://www.dl2rum.de/rumsoft/RUMLog.html[RUMLogNG] for any manual logging, solar activity monitor.
+- Install JT-Bridge ('brew install jt-bridge').
+Sits between WSJTX and RUMLogNG (is this really needed?).
+
+
 
 ==== What Is FT-8? / Why Use FT-8?
 
