@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.8, July 31, 2022
+v0.9, April 10, 2023
 :toclevels 5:
 :icons: font
 :toc2:
@@ -58,13 +58,6 @@ I was able to install EchoLink software on a Win11 VM, connect a USB microphone 
 - Net Control is Landon AI7HE.
 - Promoter/sponsor appears to be Joe Sammarino N2QOJ.
 
-== Digital Modes
-
-It appears that digital is where a lot of the experimentation is happening.
-While CW & voice are well understood and pretty stable, digital provides a ton of opportunities to play with protocols, error checking & correction, TDMA, data+voice and a ton of other things.
-
-I'm attracted to digital modes because it appears it may be possible to get a message through with a low power transmitter when voice wouldn't cut it.
-
 === Digital Voice
 
 Who would have thought there would be competition in digital voice?
@@ -89,6 +82,44 @@ ICOM likes D-STAR.  Japan Amateur Radio League, circa 2001.
 Oldest digital format.
 
 Internet is the weak link, and many of these look to be proprietary.
+
+=== Digital Mobile Radio (DMR)
+
+TL;DR
+
+- very, very dependent on the internet
+- very, very complex
+- there is software for PC that becomes a DMR radio, so you don't need to actually buy a radio
+
+Allows more users is less space.
+Starts by using narrow band (12.5 kHz) rather than wide (25 kHz, typical FM)
+By using TDMA each frequency is divided into two "slots", effectively doubling usage of that frequency.
+
+All DMR frequencies use Color Codes from 0-15 and all frequencies for a site will have the same color code.
+(think "talk groups" or receive tones on GMRS).
+
+There are 6 different "flavors" of DMR.
+The  flavors of DMR are:
+
+. Conventional Digital Mobile Radio (DMR)
+. Internet Protocol Site Connect (DMR)
+. Capacity Plus (Cap+)
+. Linked Capacity Plus - trunked multi-site muli-channel configuration of MotoTRBO which combines both Capacity Plus and IP Site Connect configurations.
+. Capacity Max
+. Connect Plus (Con+)
+
+default: pistar/raspberry for pi-star hotspots
+
+https://whistlergroup.com/pages/understanding-dmr-digital-mobile-radio
+https://minnesotadmr.com/wp-content/uploads/2017/02/DMR-Radio-1702.pdf
+
+== Digital Modes
+
+It appears that digital is where a lot of the experimentation is happening.
+While CW & voice are well understood and pretty stable, digital provides a ton of opportunities to play with protocols, error checking & correction, TDMA, data+voice and a ton of other things.
+
+I'm attracted to digital modes because it appears it may be possible to get a message through with a low power transmitter when voice wouldn't cut it.
+
 
 === Packet
 
