@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.9, April 10, 2023
+v0.10, July 21, 2023
 :toclevels 5:
 :icons: font
 :toc2:
@@ -83,6 +83,20 @@ Oldest digital format.
 
 Internet is the weak link, and many of these look to be proprietary.
 
+Apparently there is work going on for Digital Voice on HF using open source: https://freedv.org/.
+This looks very promising.
+
+=== D-Star
+Register an account.
+I used https://mdarc.org/repeater-systems/digital-voice/d-star/d-star-registration
+
+Set up your radio (ICOM) with your callsign as MyCall.
+You also need the call sign of a local repeater (dstarinfo.com/maps-by-region.aspx).
+I found W7MOT on White Tanks with DV A/B/C and DD A repeaters.
+This appears to be the Motorola Amateur Radio Club of Arizona.
+
+https://www.la1b.no/wp-content/uploads/2016/12/Newbies-Guide-to-D-Star-V2.0.pdf[Newbie's Guide to Using D-Star] is pretty helpful for getting started.
+
 === Digital Mobile Radio (DMR)
 
 TL;DR
@@ -135,6 +149,8 @@ ____
 Check out YouTube for Denver Radio Club "DRC Packet Radio Class 01".
 Circa 1992 but it has the details and the history.
 Excellent.
+
+=== Direwolf
 
 === TNC - Terminal Node Controller
 
