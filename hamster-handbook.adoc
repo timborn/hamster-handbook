@@ -1,6 +1,6 @@
 = The Hamster Handbook
 Tim Born <Timothy.D.Born@gmail.com>
-v0.10, July 21, 2023
+v0.11, October 14, 2023
 :toclevels 5:
 :icons: font
 :toc2:
@@ -186,6 +186,12 @@ digipeater, iGate, microsat, aprsdroid
 https://aprs.fi
 
 https://smsgte.org/[SMSGTE] is a way to bridge APRS messaging and SMS (cell phone texting).
+
+Here's a combination that should work on mac & linux:
+
+- direwolf (TNC)
+- https://xastir.org/index.php/Main_Page/[Xastir] for display
+- possibly alternative to Xastir is https://www.ka2ddo.org/ka2ddo/YAAC.html/[YAAC]
 
 === FT-8
 
